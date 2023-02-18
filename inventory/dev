@@ -1,7 +1,8 @@
 [nginx]
 192.168.191.135
+
 [nginx:vars]
-server_name=nginx
+server_name=192.168.191.135
 port=80
 user=deploy
 worker_processes=4
